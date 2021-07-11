@@ -16,4 +16,4 @@ const { length, save, numbers, symbols } = program.opts();
 const generatedPassword = createPassword(length, numbers, symbols);
 
 // Output Generated Password
-console.log(generatedPassword)
+console.log(generatedPassword);
