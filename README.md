@@ -8,6 +8,18 @@ It is built entirely on Node.js
 
 <br />
 
+## Command Options (Flags)
+```
+i)      -V, --version               output the version number
+ii)     -l, --length <number>       length of password (default: "8")
+iii)    -s, --save                  save passwords to passwords.txt
+iv)     -nn, --no-numbers           remove numbers
+v)      -ns, --no-symbols           remove symbols
+vi)     -h, --help                  display help for command
+```
+    
+<br />
+
 ## Built on the Shoulder of Giants
 - <a href="https://github.com/tj/commander.js/" target="_blank">Commander</a> : node.js command-line interfaces made easy 
 - <a href="https://github.com/chalk/chalk" target="_blank">Chalk</a> : Terminal string styling done right
